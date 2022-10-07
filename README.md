@@ -2,6 +2,8 @@
 
 Simple slackbot that will choose from a list of default reviewers to review a PR 
 
+_**note:** initial commit just contains an example for setting up go gin with azure functions... will contain more useful bits shortly_
+
 Thoughts about how this should work... 
 - Should be able to communicate with git server (in our case bitbucket, but could add other integrations later)
 - Bitbucket hook that makes a request to the az func endpoint when there is a new PR
